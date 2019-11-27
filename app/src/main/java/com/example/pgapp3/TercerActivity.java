@@ -28,8 +28,7 @@ public class TercerActivity extends AppCompatActivity {
         edad = (EditText)findViewById(R.id.editedad);
         masculino = (RadioButton)findViewById(R.id.radioButton);
         femenino = (RadioButton)findViewById(R.id.radioButton2);
-        p = (ProgressBar)findViewById(R.id.progressBar);
-        t =(TextView) findViewById(R.id.porcentaje);
+
         dis = (CheckBox)findViewById(R.id.checkBox2);
     }
     public void Volver(View view2){
