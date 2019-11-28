@@ -21,11 +21,8 @@ public class PrimerActivity extends AppCompatActivity {
         setContentView(R.layout.primer_main);
         boton1 = (Button)findViewById(R.id.button);
         boton2 = (Button)findViewById(R.id.button2);
-        newname = (EditText)findViewById(R.id.editText);
-        saludo = (TextView)findViewById(R.id.TextView);
         receptor1=getIntent().getStringExtra("newcodigo");
 
-        //saludo.setText(receptor1);
     }
 
     public void Siguiente(View view){
@@ -34,19 +31,9 @@ public class PrimerActivity extends AppCompatActivity {
         startActivity(i);
     }
 
-    public void Newsaludo(View view2){
-        String valor="Hola "+ newname.getText().toString();
-        saludo.setText(valor);
+    public void Siguiente2(View view){
+        Intent i = new Intent(PrimerActivity.this, MainPelota.class);
+        startActivity(i);
     }
-    public void Insertar(){
-        SQLHelper chelp = new SQLHelper( this,"UsuariosDB",null,1);
 
-        //insetando datos//
-        SQLiteDatabase db = chelp.getWritableDatabase();
-        if(db!=null){
-
-
-        }
-
-    }
 }

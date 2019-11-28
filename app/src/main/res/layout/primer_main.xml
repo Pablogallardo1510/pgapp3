@@ -5,7 +5,7 @@
     android:id="@+id/fondo"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".PrimerActivity">
 
     <TextView
         android:id="@+id/TextView"
@@ -45,7 +45,7 @@
             android:id="@+id/button"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:onClick="Registrar"
+            android:onClick="Siguiente2"
             android:text="Sensor" />
     </LinearLayout>
 

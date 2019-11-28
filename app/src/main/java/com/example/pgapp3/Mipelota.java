@@ -53,8 +53,9 @@ public class Mipelota extends View implements SensorEventListener {
     public void onAccuracyChanged(Sensor sensor, int i) {
 
     }
-    public void onDraq(Canvas lienzo){
-        pincel.setColor(Color.RED);
+    @Override
+    public void onDraw(Canvas lienzo){
+        pincel.setColor(Color.BLUE);
         lienzo.drawCircle(ejeX,ejeY,ejeZ+tamanio,pincel);
         pincel.setColor(Color.WHITE);
         pincel.setTextSize(25);
