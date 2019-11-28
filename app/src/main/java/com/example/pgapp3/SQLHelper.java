@@ -14,7 +14,8 @@ public class SQLHelper extends SQLiteOpenHelper {
 
     @Override
     public void onCreate(SQLiteDatabase BaseDeDatos) {
-        BaseDeDatos.execSQL("CREATE TABLE USUARIOS(Codigo int primary key , Usuario TEXT,Contrasenia INTERGER)");
+        BaseDeDatos.execSQL("CREATE TABLE USUARIOS(Codigo int primary key  , Usuario TEXT,Contrasenia INTERGER)");
+        BaseDeDatos.execSQL("CREATE TABLE PERSONAS(Codigo int primary key  , Nombre TEXT,Rut TEXT,Edad TEXT,Sexo TEXT)");
     }
 
     @Override

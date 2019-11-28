@@ -10,7 +10,7 @@
     <TableLayout
         android:id="@+id/tableLayout"
         android:layout_width="389dp"
-        android:layout_height="245dp"
+        android:layout_height="200dp"
         android:layout_marginStart="16dp"
         android:layout_marginLeft="16dp"
         android:layout_marginTop="240dp"
@@ -121,34 +121,9 @@
 
         <TableRow
             android:layout_width="match_parent"
-            android:layout_height="47dp">
-
-            <TextView
-                android:id="@+id/textView6"
-                android:layout_width="wrap_content"
-                android:layout_height="65dp"
-                android:text="Discapacidad:"
-                android:textSize="18sp" />
-
-            <CheckBox
-                android:id="@+id/checkBox2"
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:text="Si" />
-        </TableRow>
+            android:layout_height="47dp" />
 
     </TableLayout>
-
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="140dp"
-        android:layout_marginLeft="140dp"
-        android:layout_marginTop="80dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:srcCompat="@tools:sample/avatars" />
 
     <LinearLayout
         android:id="@+id/linearLayout2"
